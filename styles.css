@@ -1,5 +1,153 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    line-height: 1.6;
     color: black;
+    padding: 0;
+}
+
+.logo{
+    font-size: 20px;
+    gap: 30px;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;    
+}
+
+.nav-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-right a:hover{
+    text-decoration: underline;
+}
+
+.nav-right ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 20px;
+}
+
+.nav-right ul li {
+    display: flex;
+    list-style: none;
+}
+
+.nav-right ul a{
+    text-decoration: none;
+    color: black;
+}
+
+#rogin{
+    display: flex;
+    background-color: cadetblue;
+    border-style: none;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+#rogin a {
+    color: white;
+
+}
+
+.main-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    gap: 10px;
+}
+
+img {
+    margin: 30px;
+    height: 3%;
+    width: 600px;
+}
+
+.search-bar{
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.search-bar input{
+    width: 400px;
+    height: 30px;
+    border: 2px solid rgb(209, 207, 207);
+    border-radius: 15px; 
+    text-align: center;
+    font-size: 14px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
   }
+    
+  .buttons button {
+    background-color: cadetblue;
+    color: white;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+
+  footer {
+    background-color:antiquewhite;
+    padding: 10px 0px;
+  }
+
+  .footer-local{
+    text-align: left;
+    margin: 40px;
+    color:dimgray;
+  }
+
+ .footer-linkbox{
+    display: flex;
+    justify-content: space-between;
+       
+}
+
+.linksbox-right,
+.linksbox-left{
+    display: flex;
+    align-items: center;
+}
+
+.linksbox-left ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 0px;
+}
+
+.linksbox-right ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 20px;
+}
+
+.linksbox-right ul li, 
+.linksbox-left ul li{
+    display: flex;
+    list-style: none;
+}
+
+.linksbox-right ul a,
+.linksbox-left ul a{
+    text-decoration: none;
+    color: black;
+    color:dimgray;
+}
